@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cake.ResourceHacker</name>
+    </assembly>
+    <members>
+        <member name="T:Cake.ResourceHacker.ArgumentsBuilderExtension">
+            <summary>
+            Arguments builder
+            </summary>
+        </member>
+        <member name="M:Cake.ResourceHacker.ArgumentsBuilderExtension.AppendAll(Cake.Core.IO.ProcessArgumentBuilder,Cake.Core.ICakeEnvironment,System.String,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Appends all arguments from <paramref name="settings"/> and <paramref name="arguments"/>.
+            </summary>
+            <param name="builder"></param>
+            <param name="command"></param>
+            <param name="settings">The settings.</param>
+            <param name="arguments"></param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ArgumentsBuilderExtension.AppendArguments(Cake.Core.IO.ProcessArgumentBuilder,Cake.Core.ICakeEnvironment,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Appends pre or post command arguments.
+            </summary>
+            <typeparam name="TSettings"></typeparam>
+            <param name="builder"></param>
+            <param name="settings"></param>
+            <param name="preCommand"></param>
+        </member>
+        <member name="T:Cake.ResourceHacker.MaskName">
+            <summary>
+            Defines well known mask names.
+            </summary>
+        </member>
+        <member name="F:Cake.ResourceHacker.MaskName.MainIcon">
+            <summary>
+            Main icon
+            </summary>
+        </member>
+        <member name="T:Cake.ResourceHacker.MaskType">
+            <summary>
+            Defines well known mask types.
+            </summary>
+        </member>
+        <member name="F:Cake.ResourceHacker.MaskType.IconGroup">
+            <summary>
+            Icon group
+            </summary>
+        </member>
+        <member name="F:Cake.ResourceHacker.MaskType.Dialog">
+            <summary>
+            Dialog
+            </summary>
+        </member>
+        <member name="T:Cake.ResourceHacker.NamespaceDoc">
+            <summary>
+            This namespace contains Resource Hacker operations.
+            </summary>
+        </member>
+        <member name="T:Cake.ResourceHacker.ResourceHackerAliases">
+            <summary>
+            Contains functionality for working with Resource Hacker commands.
+            </summary>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerAdd(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Add command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerAddOverwrite(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            AddOverwrite command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerAddSkip(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            AddSkip command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerCompile(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Compile command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerDelete(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Delete command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerExtract(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Extract command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerModify(Cake.Core.ICakeContext,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Modify command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerAliases.ResourceHackerChangeLanguage(Cake.Core.ICakeContext,System.String,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            ChangeLanguage command
+            </summary>
+            <param name="context">The context.</param>
+            <param name="languageId">LangId argument.</param>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="T:Cake.ResourceHacker.ResourceHackerResolver">
+            <summary>
+            ResourceHacker tool resolver.
+            </summary>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerResolver.GetResourceHackerPath(Cake.Core.IO.IFileSystem,Cake.Core.ICakeEnvironment)">
+            <summary>
+            Returns the path of the ResourceHacker.exe.
+            </summary>
+            <param name="fileSystem"></param>
+            <param name="environment"></param>
+            <returns>The path of the latest ResourceHacker.exe</returns>
+            <remarks>Throws if ResourceHacker isn't found.</remarks>
+        </member>
+        <member name="T:Cake.ResourceHacker.ResourceHackerSettings">
+            <summary>
+            Resource hacker settings.
+            </summary>
+        </member>
+        <member name="P:Cake.ResourceHacker.ResourceHackerSettings.Open">
+            <summary>
+            filename - the name of the file that is to be modified. It should be a Windows PE file (*.exe, *.dll etc) or a compiled or uncompiled resouce file (*.res or *.rc)
+            </summary>
+        </member>
+        <member name="P:Cake.ResourceHacker.ResourceHackerSettings.Save">
+            <summary>
+            usually a filename for the new or modified file, but can also be a folder when extracting multiple resources
+            </summary>
+        </member>
+        <member name="P:Cake.ResourceHacker.ResourceHackerSettings.Log">
+            <summary>
+            Filename or CONSOLE or NUL
+            CONSOLE can be abbreviated to CON
+            Logs the details of the operation performed
+            If this switch is omitted, the log will be written to resourcehacker.log
+            </summary>
+        </member>
+        <member name="P:Cake.ResourceHacker.ResourceHackerSettings.Resource">
+            <summary>
+            filename - contains a resource being added to the opened file.
+            </summary>
+        </member>
+        <member name="P:Cake.ResourceHacker.ResourceHackerSettings.Script">
+            <summary>
+            filename - contains a multi-command script, NOT a resource script for more info: -help script
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Cake.ResourceHacker.ResourceHackerSettings.Mask" -->
+        <member name="T:Cake.ResourceHacker.ResourceHackerTool">
+            <summary>
+            Resource Hacker tool.
+            </summary>
+            <typeparam name="TSettings">The settings type.</typeparam>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerTool.#ctor(Cake.Core.IO.IFileSystem,Cake.Core.ICakeEnvironment,Cake.Core.IO.IProcessRunner,Cake.Core.Tooling.IToolLocator)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Cake.ResourceHacker.ResourceHackerTool"/> class.
+            </summary>
+            <param name="fileSystem">The file system.</param>
+            <param name="environment">The environment.</param>
+            <param name="processRunner">The process runner.</param>
+            <param name="tools">The tools.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerTool.Run(System.String,Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Runs given <paramref name="command"/> using given <paramref name="settings"/>.
+            </summary>
+            <param name="command">The command.</param>
+            <param name="settings">The settings.</param>
+            <param name="additional">Additional arguments.</param>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerTool.GetToolName">
+            <summary>
+            Gets the name of the tool.
+            </summary>
+            <returns>The name of the tool.</returns>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerTool.GetToolExecutableNames">
+            <summary>
+            Gets the possible names of the tool executable.
+            </summary>
+            <returns>The tool executable name.</returns>
+        </member>
+        <member name="M:Cake.ResourceHacker.ResourceHackerTool.GetAlternativeToolPaths(Cake.ResourceHacker.ResourceHackerSettings)">
+            <summary>
+            Finds the proper Resource Hacker executable path.
+            </summary>
+            <param name="settings">The settings.</param>
+            <returns>A single path to Resource Hacker executable.</returns>
+        </member>
+    </members>
+</doc>

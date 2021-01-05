@@ -1,0 +1,17 @@
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\AssemblyInfoEditor.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\AssemblyInfoEditor.pdb
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\obj\Debug\AssemblyInfoEditor.csprojAssemblyReference.cache
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\obj\Debug\AssemblyInfoEditor.csproj.CoreCompileInputs.cache
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\obj\Debug\AssemblyInfoEditor.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\obj\Debug\AssemblyInfoEditor.pdb
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\AssemblyInfoEditor.dll.config
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\dnlib.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\dnlib.xml
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\lolho\source\repos\AssemblyInfoEditor\AssemblyInfoEditor\obj\Debug\AssemblyInfoEditor.csproj.CopyComplete
